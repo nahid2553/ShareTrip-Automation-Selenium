@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4f2ad1-48d3-4684-ac89-a58f95dca0a6" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/SignUpPage.java" afterDir="false" />
+    <list default="true" id="4e4f2ad1-48d3-4684-ac89-a58f95dca0a6" name="Changes" comment="Added signup and login page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/TicketBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/TicketBookingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestCases/TicketBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestCases/TicketBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Utilities/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Utilities/DriverSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,9 @@
     &quot;accountId&quot;: &quot;31d5b1bc-80e3-4e0e-8d49-882d24010e79&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -53,20 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.TicketBookingPage.openPage.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LoginPage.login.executor": "Run",
+    "TestNG.TicketBookingPage.openPage.executor": "Run",
+    "TestNG.signUpPage.signUp.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.LoginPage.login">
+}]]></component>
+  <component name="RunManager" selected="TestNG.signUpPage.signUp">
     <configuration name="LoginPage.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShareTrip-Automation-Selenium" />
       <extension name="coverage">
@@ -123,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginPage.login" />
         <item itemvalue="TestNG.signUpPage.signUp" />
+        <item itemvalue="TestNG.LoginPage.login" />
         <item itemvalue="TestNG.TicketBookingPage.openPage" />
       </list>
     </recent_temporary>
@@ -178,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751891393650</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added signup and login page">
+      <option name="closed" value="true" />
+      <created>1751914287721</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751914287721</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added signup and login page">
+      <option name="closed" value="true" />
+      <created>1751914318510</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751914318510</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +216,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="package update" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Added signup and login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added signup and login page" />
   </component>
 </project>
