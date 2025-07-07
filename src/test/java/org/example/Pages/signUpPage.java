@@ -7,5 +7,6 @@ public class signUpPage extends DriverSetup {
     @Test
     public void signUp(){
         ShareTrip.get("https://sharetrip.net/signup");
+
     }
 }

@@ -9,18 +9,17 @@ import org.testng.annotations.BeforeSuite;
 
 public class DriverSetup {
     public WebDriver ShareTrip;
+    public static String browserName = System.getProperty("firefox","Chrome");
 
     @BeforeSuite
     public void openBrowser(){
-        ShareTrip = getBrowser("firefox");
+        ShareTrip = getBrowser(browserName);
         ShareTrip.manage().window().maximize();
-
     }
 
     @AfterSuite
     public void closeBrowser(){
         ShareTrip.quit();
-
     }
 
     public WebDriver getBrowser(String browserName){

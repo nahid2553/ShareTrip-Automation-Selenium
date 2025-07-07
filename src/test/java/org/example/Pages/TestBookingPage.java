@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class TicketBookingPage extends DriverSetup {
+public class TestBookingPage extends DriverSetup {
 
      public By oneWayTrip = By.xpath("//p[normalize-space()='One Way']");
      public By roundTrip = By.xpath("//p[normalize-space()='Round Trip']");

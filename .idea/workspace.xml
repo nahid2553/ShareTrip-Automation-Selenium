@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4f2ad1-48d3-4684-ac89-a58f95dca0a6" name="Changes" comment="Added signup and login page">
+    <list default="true" id="4e4f2ad1-48d3-4684-ac89-a58f95dca0a6" name="Changes" comment="Dynamic browser setup on driver setup class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/TicketBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/TicketBookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/TicketBookingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Pages/TestBookingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestCases/TicketBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestCases/TestBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Utilities/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Utilities/DriverSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketBookingPage.openPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBookingPage.openPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShareTrip-Automation-Selenium" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +98,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.Pages" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Pages.TicketBookingPage" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Pages.TestBookingPage" />
       <option name="METHOD_NAME" value="openPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -128,7 +129,7 @@
       <list>
         <item itemvalue="TestNG.signUpPage.signUp" />
         <item itemvalue="TestNG.LoginPage.login" />
-        <item itemvalue="TestNG.TicketBookingPage.openPage" />
+        <item itemvalue="TestNG.TestBookingPage.openPage" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751914318510</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Dynamic browser setup on driver setup class">
+      <option name="closed" value="true" />
+      <created>1751917538911</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751917538911</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,8 +224,9 @@
     <MESSAGE value="Driver setup and ticket booking page" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="package update" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Added signup and login page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added signup and login page" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Dynamic browser setup on driver setup class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic browser setup on driver setup class" />
   </component>
 </project>
