@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class TicketBookingPage extends DriverSetup {
 
     @Test
-    public void openPage(){
+    public void bookATicket(){
         ShareTrip.get("https://sharetrip.net/");
 
     }
