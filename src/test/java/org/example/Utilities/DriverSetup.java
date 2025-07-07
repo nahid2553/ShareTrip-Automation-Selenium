@@ -7,19 +7,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-public class DriverSetup {
-    public WebDriver ShareTrip;
-    public static String browserName = System.getProperty("firefox","Chrome");
+import java.time.Duration;
 
-    @BeforeSuite
-    public void openBrowser(){
-        ShareTrip = getBrowser(browserName);
-        ShareTrip.manage().window().maximize();
+public class DriverSetup {
+  //  public WebDriver ShareTrip;
+    public static String browserName = System.getProperty("chrome","Chrome");
+
+    private static final ThreadLocal<WebDriver> LOCAL_BROWSER = new ThreadLocal<>();
+
+    public static void setShareTrip(WebDriver shareTrip){ //setter method
+        DriverSetup.LOCAL_BROWSER.set(shareTrip);
     }
 
-    @AfterSuite
-    public void closeBrowser(){
-        ShareTrip.quit();
+    public static WebDriver getShareTrip(){ //getter method
+        return LOCAL_BROWSER.get();
     }
 
     public WebDriver getBrowser(String browserName){
@@ -32,5 +33,19 @@ public class DriverSetup {
         else {
             throw new RuntimeException("Browser is not available with this given name: "+ browserName);
         }
+    }
+
+    @BeforeSuite
+    public void openBrowser(){
+
+        WebDriver shareTrip = getBrowser(browserName);
+        shareTrip.manage().window().maximize();
+        shareTrip.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        setShareTrip(shareTrip);
+    }
+
+    @AfterSuite
+    public void closeBrowser(){
+        getShareTrip().quit();
     }
 }

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class signUpPage extends DriverSetup {
     @Test
     public void signUp(){
-        ShareTrip.get("https://sharetrip.net/signup");
+        getShareTrip().get("https://sharetrip.net/signup");
 
     }
 }
