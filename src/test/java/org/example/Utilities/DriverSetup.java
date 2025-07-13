@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class DriverSetup {
   //  public WebDriver ShareTrip;
-    public static String browserName = System.getProperty("chrome","Chrome");
+    public static String browserName = System.getProperty("firefox","Edge");
 
     private static final ThreadLocal<WebDriver> LOCAL_BROWSER = new ThreadLocal<>();
 

@@ -1,5 +1,4 @@
 package org.example.TestCases;
-
 import org.example.Pages.FlightBooking;
 import org.example.Pages.HomePage;
 import org.example.Utilities.DriverSetup;
@@ -15,51 +14,84 @@ public class TestFlightBooking extends DriverSetup {
     @Test
     public void bookAOneWayFlight() throws InterruptedException {
         getShareTrip().get(homePage.homePageUrl);
-       // Thread.sleep(1000);
-
         homePage.clickOnElement(flightBooking.oneWayTrip);
-      //  Thread.sleep(1000);
+        homePage.scrollDown(300);
+        Thread.sleep(3000);
+
         homePage.clickOnElement(flightBooking.departureAirport);
         homePage.clickOnElement(flightBooking.departureAirportCross);
-      //  Thread.sleep(1000);
         homePage.writeOnElement1(flightBooking.departureAirportName);
-      //  Thread.sleep(1000);
         homePage.clickDropdownElement(flightBooking.selectDepartureAirport);
-      //  Thread.sleep(1000);
 
         homePage.clickOnElement(flightBooking.destinationAirportCross);
-//        Thread.sleep(3000);
         homePage.writeOnElement2(flightBooking.destinationAirportName);
-//        Thread.sleep(3000);
         homePage.clickDropdownElement(flightBooking.selectDestinationAirport);
-//        Thread.sleep(3000);
-//
-        homePage.clickOnElement(flightBooking.clickOnDate);
-    //    Thread.sleep(3000);
-        homePage.clickOnCalenderElement();
-       Thread.sleep(5000);
 
-//        homePage.clickOnElement(flightBooking.clickOnTraveller);
-//        Thread.sleep(3000);
-//        homePage.clickDropdownElement(flightBooking.addAdultsTraveller);
-//        Thread.sleep(3000);
-//        homePage.clickOnElement(flightBooking.addChildrenTraveller);
-//        Thread.sleep(3000);
-//        homePage.clickOnElement(flightBooking.addKidsTraveller);
-//        Thread.sleep(3000);
-//        homePage.clickOnElement(flightBooking.addInfantsTraveller);
-//        Thread.sleep(3000);
-//        homePage.clickOnElement(flightBooking.clickDoneForTraveller);
-//        Thread.sleep(3000);
-//
-//        homePage.clickOnElement(flightBooking.clickTravelClass);
-//        Thread.sleep(3000);
-//        homePage.clickOnElement(flightBooking.selectFirstClassTravel);
-//        Thread.sleep(3000);
-//
-//        homePage.clickOnElement(flightBooking.clickSearchButton);
-//        Thread.sleep(3000);
+        homePage.clickOnElement(flightBooking.clickFirstFlightDate);
+    /*    homePage.clickDropdownElement(flightBooking.changeMonth);
+        Thread.sleep(5000);  */
+        homePage.clickOnElement(flightBooking.selectFlightDate);
 
+        homePage.clickOnElement(flightBooking.clickOnTraveller);
+        homePage.clickOnElement(flightBooking.addAdultsTraveller);
+        Thread.sleep(3000);
+        homePage.clickOnElement(flightBooking.addChildrenTraveller);
+        Thread.sleep(3000);
+        homePage.clickOnElement(flightBooking.addKidsTraveller);
+        Thread.sleep(3000);
+        homePage.clickOnElement(flightBooking.addInfantsTraveller);
+        Thread.sleep(3000);
+        homePage.clickOnElement(flightBooking.clickDoneForTraveller);
 
+        homePage.clickOnElement(flightBooking.clickTravelClassWhenEconomyIsSelected);
+        homePage.clickOnElement(flightBooking.selectFirstClassTravel);
+        homePage.clickOnElement(flightBooking.clickSearchButton);
+        Thread.sleep(3000);
+
+        homePage.clickOnElement(flightBooking.clickModifySearch);
+        homePage.clickOnElement(flightBooking.clickTravelClassWhenFirstClassIsSelected);
+        homePage.clickOnElement(flightBooking.selectBusinessClassTravel);
+        homePage.clickOnElement(flightBooking.clickSearchButton);
+        Thread.sleep(3000);
+
+        homePage.clickOnElement(flightBooking.clickModifySearch);
+        homePage.clickOnElement(flightBooking.clickTravelClassWhenBusinessClassIsSelected);
+        homePage.clickOnElement(flightBooking.selectPremiumEconomyClassTravel);
+        homePage.clickOnElement(flightBooking.clickSearchButton);
+        homePage.scrollDown(300);
+        Thread.sleep(3000);
+
+        homePage.clickOnElement(flightBooking.clickModifySearch);
+        homePage.clickOnElement(flightBooking.clickTravelClassWhenPremiumEconomyClassIsSelected);
+        homePage.clickOnElement(flightBooking.selectEconomyClassTravel);
+        homePage.clickOnElement(flightBooking.clickSearchButton);
+        Thread.sleep(3000);
+        homePage.scrollDown(300);
+        Thread.sleep(3000);
+        homePage.scrollDown(300);
+        Thread.sleep(3000);
     }
+
+//    @Test
+//    public void bookRoundTripFlight() throws InterruptedException {
+//        getShareTrip().get(homePage.homePageUrl);
+//        homePage.scrollDown(300);
+//        Thread.sleep(3000);
+//
+//        homePage.clickOnElement(flightBooking.departureAirport);
+//        homePage.clickOnElement(flightBooking.departureAirportCross);
+//        homePage.writeOnElement1(flightBooking.departureAirportName);
+//        homePage.clickDropdownElement(flightBooking.selectDepartureAirport);
+//
+//        homePage.clickOnElement(flightBooking.destinationAirportCross);
+//        Thread.sleep(5000);
+//        homePage.writeOnElement2(flightBooking.destinationAirportName);
+//        Thread.sleep(5000);
+//        homePage.clickDropdownElement(flightBooking.selectDestinationAirport);
+//
+//        homePage.clickOnElement(flightBooking.clickFirstFlightDate);
+//        homePage.clickOnElement(flightBooking.selectFlightDate);
+
+
+//    }
 }
