@@ -34,13 +34,13 @@ public class TestFlightBooking extends DriverSetup {
 
         homePage.clickOnElement(flightBooking.clickOnTraveller);
         homePage.clickOnElement(flightBooking.addAdultsTraveller);
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         homePage.clickOnElement(flightBooking.addChildrenTraveller);
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         homePage.clickOnElement(flightBooking.addKidsTraveller);
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         homePage.clickOnElement(flightBooking.addInfantsTraveller);
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         homePage.clickOnElement(flightBooking.clickDoneForTraveller);
 
         homePage.clickOnElement(flightBooking.clickTravelClassWhenEconomyIsSelected);
@@ -65,11 +65,14 @@ public class TestFlightBooking extends DriverSetup {
         homePage.clickOnElement(flightBooking.clickTravelClassWhenPremiumEconomyClassIsSelected);
         homePage.clickOnElement(flightBooking.selectEconomyClassTravel);
         homePage.clickOnElement(flightBooking.clickSearchButton);
-        Thread.sleep(3000);
+        Thread.sleep(5000);
+        homePage.scrollDown(300);
+        Thread.sleep(1000);
+        homePage.scrollDown(300);
+        Thread.sleep(1000);
         homePage.scrollDown(300);
         Thread.sleep(3000);
-        homePage.scrollDown(300);
-        Thread.sleep(3000);
+
     }
 
 //    @Test
