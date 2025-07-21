@@ -81,6 +81,8 @@ The automation test suite includes:
     allure open allure-report
 
  # 📊 Sample Report Output
+ ![Test Summary](Reports/Allure_report_homepage.png)
+![Test Summary](Reports/Allure_report_tc1.png)
 
 The HTML report contains:
 -   Execution summary
