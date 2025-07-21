@@ -1,6 +1,6 @@
-package org.example.Pages;
+package Pages;
 
-import org.example.Utilities.DriverSetup;
+import Configuration.DriverSetup;
 import org.testng.annotations.Test;
 
 public class LoginPage extends DriverSetup {

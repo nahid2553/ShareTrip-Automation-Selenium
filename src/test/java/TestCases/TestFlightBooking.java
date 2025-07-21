@@ -1,8 +1,7 @@
-package org.example.TestCases;
-import org.example.Pages.FlightBooking;
-import org.example.Pages.HomePage;
-import org.example.Utilities.DriverSetup;
-import org.openqa.selenium.WebElement;
+package TestCases;
+import Pages.FlightBooking;
+import Pages.HomePage;
+import Configuration.DriverSetup;
 import org.testng.annotations.Test;
 
 //only test step and validation

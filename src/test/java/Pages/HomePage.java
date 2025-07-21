@@ -1,10 +1,9 @@
-package org.example.Pages;
+package Pages;
 
-import org.example.Utilities.DriverSetup;
+import Configuration.DriverSetup;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.JavascriptExecutor;
-import java.util.List;
 
 public class HomePage extends DriverSetup {
     private WebDriver driver;
