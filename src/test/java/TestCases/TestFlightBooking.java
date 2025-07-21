@@ -2,17 +2,18 @@ package TestCases;
 import Pages.FlightBooking;
 import Pages.HomePage;
 import Configuration.DriverSetup;
+import Utilities.Variables;
 import org.testng.annotations.Test;
 
 //only test step and validation
 public class TestFlightBooking extends DriverSetup {
-
+    Variables variables = new Variables();
     HomePage homePage =new HomePage();
     FlightBooking flightBooking = new FlightBooking();
 
     @Test
     public void bookAOneWayFlight() throws InterruptedException {
-        getShareTrip().get(homePage.homePageUrl);
+        getShareTrip().get(variables.BASE_URL);
         homePage.clickOnElement(flightBooking.oneWayTrip);
         homePage.scrollDown(300);
         Thread.sleep(3000);

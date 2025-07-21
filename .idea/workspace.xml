@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4f2ad1-48d3-4684-ac89-a58f95dca0a6" name="Changes" comment="allure reports">
+    <list default="true" id="4e4f2ad1-48d3-4684-ac89-a58f95dca0a6" name="Changes" comment="Update packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/FlightBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/FlightBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Pages/signUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/signUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestCases/TestFlightBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/TestFlightBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Utilities/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Configuration/DriverSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/signUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/TestFlightBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/TestFlightBooking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,29 +56,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.FlightBooking.bookOneWayTrip.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPage.bookAOneWayFlight.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPage.login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestBooking.bookAOneWayFlight.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestBookingPage.bookOneWayTrip.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestFlightBooking.bookAOneWayFlight.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestFlightBooking.bookRoundTripFlight.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestFlightBooking.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TicketBookingPage.openPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.signUpPage.signUp.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.FlightBooking.bookOneWayTrip.executor": "Run",
+    "TestNG.LoginPage.bookAOneWayFlight.executor": "Run",
+    "TestNG.LoginPage.login.executor": "Run",
+    "TestNG.TestBooking.bookAOneWayFlight.executor": "Run",
+    "TestNG.TestBookingPage.bookOneWayTrip.executor": "Run",
+    "TestNG.TestFlightBooking.bookAOneWayFlight (1).executor": "Run",
+    "TestNG.TestFlightBooking.bookAOneWayFlight.executor": "Run",
+    "TestNG.TestFlightBooking.bookRoundTripFlight.executor": "Run",
+    "TestNG.TestFlightBooking.executor": "Run",
+    "TestNG.TicketBookingPage.openPage.executor": "Run",
+    "TestNG.signUpPage.signUp.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.TestFlightBooking.bookAOneWayFlight">
+}]]></component>
+  <component name="RunManager" selected="TestNG.TestFlightBooking.bookAOneWayFlight (1)">
     <configuration name="LoginPage.bookAOneWayFlight" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShareTrip-Automation-Selenium" />
       <extension name="coverage">
@@ -111,6 +109,24 @@
       <option name="PACKAGE_NAME" value="org.example.TestCases" />
       <option name="MAIN_CLASS_NAME" value="org.example.TestCases.TestFlightBooking" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFlightBooking.bookAOneWayFlight (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ShareTrip-Automation-Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.TestFlightBooking" />
+      <option name="METHOD_NAME" value="bookAOneWayFlight" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,31 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="signUpPage.signUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ShareTrip-Automation-Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.Pages" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Pages.signUpPage" />
-      <option name="METHOD_NAME" value="signUp" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestFlightBooking.bookAOneWayFlight (1)" />
         <item itemvalue="TestNG.TestFlightBooking.bookAOneWayFlight" />
         <item itemvalue="TestNG.TestFlightBooking" />
         <item itemvalue="TestNG.LoginPage.bookAOneWayFlight" />
         <item itemvalue="TestNG.TestFlightBooking.bookRoundTripFlight" />
-        <item itemvalue="TestNG.signUpPage.signUp" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753082211747</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update packages">
+      <option name="closed" value="true" />
+      <created>1753084056290</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753084056290</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,8 +341,9 @@
     <MESSAGE value="deleted unnecessary file" />
     <MESSAGE value="search a flight for booking" />
     <MESSAGE value="add allure reports" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="allure reports" />
-    <option name="LAST_COMMIT_MESSAGE" value="allure reports" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Update packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update packages" />
   </component>
 </project>

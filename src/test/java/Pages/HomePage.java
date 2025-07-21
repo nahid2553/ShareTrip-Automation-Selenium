@@ -9,7 +9,7 @@ public class HomePage extends DriverSetup {
     private WebDriver driver;
     private JavascriptExecutor js;
     FlightBooking flightBooking = new FlightBooking();
-    public String homePageUrl = "https://sharetrip.net/";
+  //  public String BASE_URL = "https://sharetrip.net/";
 
     public WebElement getElement(By locator){
         return getShareTrip().findElement(locator);
