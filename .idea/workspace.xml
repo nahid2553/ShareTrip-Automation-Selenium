@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e4f2ad1-48d3-4684-ac89-a58f95dca0a6" name="Changes" comment="Update packages">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/SignUpPage.java" beforeDir="false" />
+    <list default="true" id="4e4f2ad1-48d3-4684-ac89-a58f95dca0a6" name="Changes" comment="delete unused packages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.F:/SQA Lab/Web-Automation-Selenium/Automation-java-Private-Space/ShareTrip-Automation-Selenium/testngSuite.xml.executor": "Run",
     "TestNG.FlightBooking.bookOneWayTrip.executor": "Run",
     "TestNG.LoginPage.bookAOneWayFlight.executor": "Run",
     "TestNG.LoginPage.login.executor": "Run",
@@ -74,10 +74,26 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/SQA Lab/Web-Automation-Selenium/Automation-java-Private-Space/ShareTrip-Automation-Selenium",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SQA Lab\Web-Automation-Selenium\Automation-java-Private-Space\ShareTrip-Automation-Selenium" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.TestFlightBooking.bookAOneWayFlight (1)">
+    <configuration name="F:/SQA Lab/Web-Automation-Selenium/Automation-java-Private-Space/ShareTrip-Automation-Selenium/testngSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ShareTrip-Automation-Selenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginPage.bookAOneWayFlight" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShareTrip-Automation-Selenium" />
       <extension name="coverage">
@@ -149,31 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFlightBooking.bookRoundTripFlight" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ShareTrip-Automation-Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestCases.TestFlightBooking" />
-      <option name="METHOD_NAME" value="bookRoundTripFlight" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestFlightBooking.bookAOneWayFlight (1)" />
+        <item itemvalue="TestNG.F:/SQA Lab/Web-Automation-Selenium/Automation-java-Private-Space/ShareTrip-Automation-Selenium/testngSuite.xml" />
         <item itemvalue="TestNG.TestFlightBooking.bookAOneWayFlight" />
         <item itemvalue="TestNG.TestFlightBooking" />
         <item itemvalue="TestNG.LoginPage.bookAOneWayFlight" />
-        <item itemvalue="TestNG.TestFlightBooking.bookRoundTripFlight" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753085658818</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="delete unused packages">
+      <option name="closed" value="true" />
+      <created>1753086065636</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1753086065636</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,6 +364,7 @@
     <MESSAGE value="allure reports" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Update packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update packages" />
+    <MESSAGE value="delete unused packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unused packages" />
   </component>
 </project>
